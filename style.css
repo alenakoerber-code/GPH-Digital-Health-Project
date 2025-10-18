@@ -28,7 +28,20 @@ img, svg, video { max-width: 100%; height: auto; display: block; }
 
 .hidden { display: none !important; }
 
-.table {
-  display: table;
+table {
+  width: 100%;
   border-collapse: collapse;
+}
+
+th {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom:  2px solid black;
+}
+
+td {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 1px dashed grey;
+  border-bottom: 1px dashed grey;
 }
